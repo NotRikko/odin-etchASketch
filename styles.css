@@ -1,0 +1,29 @@
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#squareDivs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 50px;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction : column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#choose {
+    padding: 25px;
+}
