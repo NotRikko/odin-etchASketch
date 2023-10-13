@@ -6,24 +6,26 @@
 
 #squareDivs {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 25px 50px;
     width: 500px;
-    height: 500px;
-    
+    border: 1px solid rgb(0, 0, 0);
 }
+
+
 
 .header {
     margin-top: 10px;
     display: flex;
-    flex-direction : column;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
-#choose {
+#choose,
+#rgb,
+#shader {
     padding: 25px;
 }
+
